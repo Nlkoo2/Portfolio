@@ -29,7 +29,7 @@ nav {
 }
 
 nav a {
-    color:  rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.8);
     margin: 0 15px;
     text-decoration: none;
     font-size: 18px;
@@ -60,6 +60,44 @@ h1, p {
     text-align: center;
 }
 
+.section-container {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.section {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 45%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+/* Optional styling for sections */
+.education, .skills {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Adjust the header */
+header {
+    background: rgba(0, 0, 0, 0.6);
+    color: rgb(226, 227, 228);
+    padding: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Other existing styles */
 .social-links {
     display: flex;
     justify-content: center;
